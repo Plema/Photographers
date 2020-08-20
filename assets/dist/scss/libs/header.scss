@@ -314,12 +314,15 @@ header {
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
+                    width: 78%;
+                    padding-top: 50px;
+                    padding-bottom: 40px;
                 }
 
                 nav {
                     ul {
                         li {
-                            margin-bottom: 45px;
+                            margin-bottom: 23px;
                             text-align: center;
 
                             a {
@@ -363,6 +366,20 @@ header {
                     -ms-transition: all 1s;
                     -o-transition: all 1s;
                     transition: all 1s;
+                }
+            }
+
+            .mobile-mainMenuUser {
+                .mobile-content {
+                    overflow: auto;
+                    height: 100%;
+                    width: 78%;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+
+                    nav ul li {
+                        margin-bottom: 12px;
+                    }
                 }
             }
 
@@ -433,7 +450,8 @@ header {
                         margin-left: 30px;
 
                         ul {
-                        display: flex;
+                            display: flex;
+
                             li {
                                 margin-right: 15px;
                                 display: inline-block;
